@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "gym-api"
+version = "0.1.0"
+description = ""
+authors = ["Fernando Campana"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+uvicorn = "^0.24.0.post1"
+fastapi = "^0.104.1"
+newrelic = "^9.2.0"
+sqlalchemy = "^2.0.23"
+alembic = "^1.12.1"
+pydantic-settings = "^2.1.0"
+python-dotenv = "^1.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
